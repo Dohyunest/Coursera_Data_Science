@@ -87,15 +87,9 @@ EDA라고도 불리우는 Exploratory analysis의 주요 목표는 여러 변수
   + 독립변수 (Independent variable): 실험자가 조작하는 변수로 측정된느 다른 변수에 의존하지 않는다.
   + 종속변수 (Dependent variable): 독립변수의 변화로 인해 변화될 것으로 예상되는 변수.
   + 교란작용 (Confounder): 종속변수와 독립변수 간의 관계에 영향을 줄 수 있는 외부 변수. 교랸작용을 제거하기 위해 방법으로 각 그룹에 개인을 Randomization 할당하거나 Propensity Score Matching이 있다.  
+  + 단, 인과관계를 확인하는 모형에서는 교란변수를 제거하거나 보정해야(Adjustment) 하지만 예측 모형에서는 교란변수를 포함해도 된다. 
   + 대조군 (Control group): 어떤 조작이나 조건도 가하지 않은 집단.
   + 치료군 (Treatment group): 인위적으로 어떤 조작이나 조건을 가한 집단.
-  
+  +
 * 따라서 실험을 설계할 때 독립변수와 종속변수를 설정해야 하며. 가설을 설정해야 한다.
 <br>
-<br>
-<br>
-
-
-    
-    
-    
